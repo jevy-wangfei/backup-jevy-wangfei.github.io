@@ -1,6 +1,6 @@
 ### Site info:
 title: Jevy's Blog
-tagline: Daily Post and Code Notes
+tagline: Daily Posts and Code Notes
 author: Jevy Wang
 email: jevy.wangfei@gmail.com
 description: "Jevy Wang's blog for daily post and code note" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
@@ -10,9 +10,9 @@ url: "https://jevy.wang" # the base hostname & protocol for your site
 locale: en_US
 
 ### Personal info and site tools info:
-twitter_username: Jevy Wang
-github_username:  Jevy Wang
-disqus_shortname: Jevy Wang
+twitter_username: jvljevy
+github_username:  jevy-wangfei
+disqus_shortname: jevy-wangfei
 favicon:     "/images/favicon.ico"
 aboutme: Hi, this is Jevy Wang. I made this blog for daily notes. # these are shown on aboutme-sidebar.
 aboutme_photo: https://media.licdn.com/dms/image/C5103AQEBELsAGs1xSw/profile-displayphoto-shrink_200_200/0?e=1565222400&v=beta&t=ECFb_GaRq_W7oYxPniDINjLYwyIC_okvr14pMeQ6Fwg  # your photo.
@@ -172,13 +172,13 @@ locales:
 
 ### your Blogroll info, only name can shown on the page.
 
-Blogroll:
-      - name: Freshman
-        href: http://yulijia.net/freshman
-        title: Another Jekyll blog theme
-      - name: author's website
-        href: http://yulijia.net/
-        title: Lijia Yu's website
+# Blogroll:
+#       - name: Freshman
+#         href: http://yulijia.net/freshman
+#         title: Another Jekyll blog theme
+#       - name: author's website
+#         href: http://yulijia.net/
+#         title: Lijia Yu's website
 
 
 ### Build settings

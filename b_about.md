@@ -6,22 +6,20 @@ permalink: /about/
 ---
 
 
-### Freshman21 is a Jekyll theme.
+### About Me
 
-A tribute to Twenty Twelve and Twenty eleven.
+![Jevy Wang](https://media.licdn.com/dms/image/C5103AQEBELsAGs1xSw/profile-displayphoto-shrink_200_200/0?e=1565222400&v=beta&t=ECFb_GaRq_W7oYxPniDINjLYwyIC_okvr14pMeQ6Fwg){: .img-about}
 
-I like wordpress's theme Twenty Twelve and Twenty eleven very much. 
-So I called my Jekyll theme Freshman21 (Freshman <q>twenty-first</q> , it means twenty-first century, not twenty-one), this theme is based on my former theme [Freshman](https://github.com/yulijia/freshman/).
 
-Freshman21 have two main page format, one is [single column](http://yulijia.net/en/  "see demo"), the other is two columns. For more details, please see the articles on the site.
+- A Geek who is interested in computer science and keeps learning new techniques. 
+- A Freelancer who experienced a lot of web related projects.
+- A Engineer who worked on servers and databases for three years.
+- A Graduate from ANU with master degree major on Artificial Intelligence.
 
-<cite>Proudly enjoy using Freshman21 theme.</cite> <code>;)</code>
+- Github Addr: [https://github.com/jevy-wangfei](https://github.com/jevy-wangfei)
+- Gitlab Addr: [https://gitlab.com/jevy-wangfei](https://gitlab.com/jevy-wangfei)
 
-![麋鹿](https://i.imgur.com/Mdc4szJl.jpg){: .img-about}
 
-#### Hi, the picture you have seen in the sample-page is a Père David's deer photoed by my friend at Beijing Milu Park, China.
-
-Milu(麋鹿) is the chinese name of Père David's deer.
 
 
 
