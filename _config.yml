@@ -3,8 +3,8 @@ title: Jevy's Blog
 tagline: Daily Post and Code Notes
 author: Jevy Wang
 email: jevy.wangfei@gmail.com
-description: "Freshman21 is a Jekyll blog theme." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
-keywords: "Jekyll, theme, Freshman21"
+description: "Jevy Wang's blog for daily post and code note" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
+keywords: "jevy wang, code note, daily post"
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "https://jevy.wang" # the base hostname & protocol for your site
 locale: en_US
@@ -12,11 +12,11 @@ locale: en_US
 ### Personal info and site tools info:
 twitter_username: Jevy Wang
 github_username:  Jevy Wang
-disqus_shortname: Jevy W
+disqus_shortname: Jevy Wang
 favicon:     "/images/favicon.ico"
-aboutme: Hi, this is Jevy Wang. I made the Freshman21 theme. Please enjoy it. # these are shown on aboutme-sidebar.
-aboutme_photo: https://i.imgur.com/Mdc4szJl.jpg# your photo.
-google_analytics_key: UA-57979084-1 # put YOUR key here to enable tracking! (blank to disable)
+aboutme: Hi, this is Jevy Wang. I made this blog for daily notes. # these are shown on aboutme-sidebar.
+aboutme_photo: https://media.licdn.com/dms/image/C5103AQEBELsAGs1xSw/profile-displayphoto-shrink_200_200/0?e=1565222400&v=beta&t=ECFb_GaRq_W7oYxPniDINjLYwyIC_okvr14pMeQ6Fwg  # your photo.
+google_analytics_key: UA-141685300-1 # put YOUR key here to enable tracking! (blank to disable)
 
 
 ### Site setting:
