@@ -8,7 +8,7 @@ permalink: /about/
 
 ### About Me
 
-![Jevy Wang](https://media.licdn.com/dms/image/C5103AQEBELsAGs1xSw/profile-displayphoto-shrink_200_200/0?e=1565222400&v=beta&t=ECFb_GaRq_W7oYxPniDINjLYwyIC_okvr14pMeQ6Fwg){: .img-about}
+![Jevy Wang](https://avatars1.githubusercontent.com/u/6417796?s=460&v=4){: .img-about}
 
 
 - A Geek who is interested in computer science and keeps learning new techniques. 
