@@ -1,72 +1,37 @@
 <!DOCTYPE html>
-　　<html>
-　　<head>
-　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-　　　　<title>{{ page.title }}</title>
-		<link rel="stylesheet" href="{{ site.url }}/css/css.css">
-	  <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MQZMXD3');</script>
-<!-- End Google Tag Manager -->
-　　</head>
-　　<body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQZMXD3"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-　　　　{{ content }}
+<html>
 
-　　</body>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>
+{% include head.html %}
 
-        $(document).ready(function() {
-            $('#personal,#project,#article,#picture,#portfolio, #pc, #all').click(function(e) {
-                var filterSelect = "#" + this.id;
-				var post = $('.post__timeline');
-				var menu_show = this.id.toLowerCase().toString();
-				post.fadeOut(300);
-				//alert(filterSelect);
-                $('#menu').children().removeClass('live');
-				//alert(menu_show);
-                $(filterSelect).addClass('live');
-				if (menu_show=="all") {
-					post.fadeIn(600);
-				}
-				else {
-					post.filter('.' + menu_show).fadeIn(600);
-				};
-                e.preventDefault();
-            });
-        });
+<body>
 
-				$(document).ready(function() {
-            $('#personal,#project,#article,#picture,#design,#portfolio, #pc, #all').click(function(e) {
-                var filterSelect = "#" + this.id;
-				var post = $('.post-teaser');
-				var menu_show = this.id.toLowerCase().toString();
-				post.fadeOut(300);
-				//alert(filterSelect);
-                $('#menu').children().removeClass('live');
-				//alert(menu_show);
-                $(filterSelect).addClass('live');
-				if (menu_show=="all") {
-					post.fadeIn(600);
-				}
-				else {
-					post.filter('.' + menu_show).fadeIn(600);
-				};
-                e.preventDefault();
-            });
-        });
+<div class="container">
 
-				function showArticle(id){
-					$('.post__timeline').fadeOut(100);
-					console.log(id);
-					$("#"+id).fadeIn(600);
-				}
-    </script>
-　　</html>
+  {% include header.html %}
+
+  {% if site.default_column == "two" %}  
+
+  <div class="page-content col-sm-8">
+    {{ content }}
+    {% include post_pagination.html %}
+  </div>
+  {% include sidebar.html %}
+
+  {% else %}
+
+  <div class="page-content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </div>
+  {% include post_pagination.html %}
+
+  {% endif %}
+
+  {% include footer.html %}
+
+</div>
+
+</body>
+
+</html>
